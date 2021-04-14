@@ -160,13 +160,21 @@ span {
 
 .content button {
     background-image: radial-gradient( circle farthest-corner at 3.1% 8.2%, rgba(248, 250, 107, 1) 0%, rgba(238, 148, 148, 1) 98.2%);
-    /* background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(222, 168, 248, 1) 0%, rgba(168, 222, 248, 1) 21.8%, rgba(189, 250, 205, 1) 35.6%, rgba(243, 250, 189, 1) 52.9%, rgba(250, 227, 189, 1) 66.8%, rgba(248, 172, 172, 1) 90%, rgba(254, 211, 252, 1) 99.7%); */
     width: fit-content;
     border-radius: 15px;
     padding: 10px;
     border: none;
     color: rgb(0, 0, 0);
     font-family: 'Kumbh', sans-serif;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.content button .arrow {
+    background-color: white;
+    border-radius: 50%;
+    width: 15px;
 }
 
 .content p:first-of-type {
